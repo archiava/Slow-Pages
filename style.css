@@ -73,3 +73,21 @@ footer {
   font-size: 0.9rem;
   color: #888;
 }
+/* ✨ Hover Effects */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+button:hover,
+.link-button:hover {
+  background-color: #cbb9ad;
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}

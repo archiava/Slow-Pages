@@ -103,3 +103,23 @@
       </p>
     </div>
   </section>
+  <footer style="text-align: center; padding: 2rem; font-size: 0.9rem; color: #888;">
+    &copy; 2025 The Slow Pages · Handmade in India · @theslowpages
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        dots: '.dots',
+        draggable: true,
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

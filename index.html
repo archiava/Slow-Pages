@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Slow Pages</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  </style>
 </head>
 <body>
-  <header style="padding: 2rem; text-align: center; background: var(--card); box-shadow: 0 2px 8px var(--shadow);">
+  <header style="position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--card);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px var(--shadow);">
     <h1 style="margin: 0; font-size: 2.5rem; letter-spacing: 1px;">The Slow Pages</h1>
     <nav style="margin-top: 1rem;">
       <a href="#home" style="margin: 0 1rem;">Home</a>

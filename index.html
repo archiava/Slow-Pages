@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Slow Pages</title>
+  <style>
+    :root {
+      --bg: #f8f5f0;
+      --text: #2e2e2e;
+      --accent: #d5c4b8;
+      --card: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.05);
+    }
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <header style="padding: 2rem; text-align: center; background: var(--card); box-shadow: 0 2px 8px var(--shadow);">
+    <h1 style="margin: 0; font-size: 2.5rem; letter-spacing: 1px;">The Slow Pages</h1>
+    <nav style="margin-top: 1rem;">
+      <a href="#home" style="margin: 0 1rem;">Home</a>
+      <a href="#products" style="margin: 0 1rem;">Planners</a>
+      <a href="#about" style="margin: 0 1rem;">About</a>
+      <a href="#contact" style="margin: 0 1rem;">Contact</a>
+    </nav>
+  </header>
+  <section id="home" style="padding: 3rem 2rem; text-align: center; background-color: var(--bg);">
+    <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">Curated tools for slow, intentional living</h2>
+    <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
+      Discover printable planners and mindful designs that help you stay organized and calm — handmade in India with love.
+    </p>
+    <a href="#products" style="
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.6rem;
+      background-color: var(--accent);
+      color: var(--text);
+      border-radius: 12px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px var(--shadow);
+    ">
+      Explore Planners
+    </a>
+  </section>
+  <section id="products" style="padding: 3rem 2rem;">
+    <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Our Planners</h2>
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    ">
+      <!-- Product Card 1 -->
+      <div style="
+        background: var(--card);
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 2px 10px var(--shadow);
+        text-align: center;
+      ">
+        <img src="preview1.jpg" alt="Planner Preview" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;" />
+        <h3 style="margin: 0.5rem 0;">Daily Planner – Minimal</h3>
+        <p>₹49</p>
+        <a href="#daily-planner" style="
+          display: inline-block;
+          margin-top: 1rem;
+          padding: 0.5rem 1rem;
+          background: var(--accent);
+          border-radius: 8px;
+          font-weight: bold;
+        ">View</a>
+      </div>
+
+      <!-- You can duplicate this block to add more planners -->
+    </div>
+  </section>
+  <section id="daily-planner" style="padding: 3rem 2rem; background-color: var(--bg); text-align: center;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Daily Planner – Minimal</h2>
+    <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem;">
+      A printable daily layout to help you plan mindfully. Clean, simple, and calm — just like your day should be.
+    </p>
+    <div style="
+      background: var(--card);
+      display: inline-block;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 2px 10px var(--shadow);
+    ">
+      <p style="font-weight: bold; margin-bottom: 1rem;">Step 1: Scan the UPI QR Code below to pay ₹49</p>
+      <img src="upi.jpg" alt="UPI QR Code" width="200" style="border-radius: 8px;" />
+      <p style="margin-top: 1rem;">
+        Step 2: Send a screenshot of your payment to <br>
+        <strong>@theslowpages</strong> on Instagram or email us at <strong>hello@theslowpages.in</strong>
+      </p>
+      <p style="margin-top: 1rem;">
+        Step 3: We'll send the file to you within 12 hours ✉️
+      </p>
+    </div>
+  </section>
